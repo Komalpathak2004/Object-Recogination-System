@@ -59,21 +59,17 @@ Object-Recognition-System/
 ├── LICENSE
 └── README.md
 
-yaml
-Copy code
 
 ---
 
 ## ▶️ **How to Run**
 
 ### **1️⃣ Clone the repository**
-```bash
-git clone https://github.com/YOUR_USERNAME/Object-Recognition-System.git
-2️⃣ Install dependencies
 bash
-Copy code
+git clone https://github.com/Komalpathak2004/Object-Recognition-System.git
+
+### **2️⃣ Install dependencies**
 pip install -r requirements.txt
-3️⃣ Run YOLO detection
-bash
-Copy code
+
+### **3️⃣ Run YOLO detection**
 python app.py
