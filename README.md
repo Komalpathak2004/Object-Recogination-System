@@ -1,38 +1,79 @@
-# 🧠 Object Recognition System — Infosys Internship (Oct 2024)
+<div align="center">
 
-A real-time object recognition system built during the Infosys Internship 5.0 (2024).  
-This project uses **YOLOv5**, **OpenCV**, and **Python** to detect and classify objects through a laptop’s camera feed.
+# 🧠 **Object Recognition System**  
+### *Infosys Internship — October 2024*
 
----
+A real-time object recognition system developed during **Infosys Internship 5.0** using  
+**YOLOv5**, **OpenCV**, and **Python** for accurate detection through laptop camera feeds.
 
-## 📸 Project Preview  
-<!-- Add images or GIFs here -->
-<p align="center">
-  <!-- Replace image links below -->
-  <img src="images/demo1.png" width="60%" alt="Project Demo Image 1"/>
-  <br><br>
-  <img src="images/demo2.png" width="60%" alt="Project Demo Image 2"/>
-</p>
+</div>
 
 ---
 
-## 🚀 Features
+## 📸 **Project Preview**
 
-- Real-time object detection using **YOLOv5**
-- Supports recognition of multiple object classes
-- Integrated with **OpenCV** for camera access and frame processing
-- Uses **PyTorch** backend for high-speed inference
-- Easy to extend with new custom datasets
+<div align="center">
+
+<img src="/public/Demo.jpeg" width="65%" alt="Project Demo" style="border-radius:10px;"/>
+
+</div>
+
+---
+
+## 🚀 **Key Features**
+
+✨ Real-time object detection using **YOLOv5**  
+✨ Supports multiple object classes & custom datasets  
+✨ **OpenCV**-based live camera feed processing  
+✨ High-speed model inference powered by **PyTorch**  
+✨ Easily extendable modular codebase  
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ **Tech Stack**
 
-| Technology | Purpose |
-|-----------|---------|
-| **Python** | Core programming language |
-| **YOLOv5** | Object detection model |
-| **OpenCV** | Camera and image processing |
-| **PyTorch** | Model inference engine |
+<div align="center">
+
+| Technology | Role |
+|-----------|------|
+| 🐍 **Python** | Core programming language |
+| 🎯 **YOLOv5** | Object detection architecture |
+| 📷 **OpenCV** | Image & video stream processing |
+| 🔥 **PyTorch** | Deep learning inference engine |
+
+</div>
 
 ---
+
+## 📂 **Project Structure**
+
+Object-Recognition-System/
+│
+├── app.py # Main YOLO detection script
+├── yolo_check.py # Secondary testing script
+├── Main.ipynb # Notebook with analysis/demo
+├── best.pt # Trained YOLO model weights
+├── coco.yaml # Dataset config file
+├── train2017.cache # Cached training metadata
+├── public/ # Demo images & snapshots
+├── LICENSE
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## ▶️ **How to Run**
+
+### **1️⃣ Clone the repository**
+```bash
+git clone https://github.com/YOUR_USERNAME/Object-Recognition-System.git
+2️⃣ Install dependencies
+bash
+Copy code
+pip install -r requirements.txt
+3️⃣ Run YOLO detection
+bash
+Copy code
+python app.py
